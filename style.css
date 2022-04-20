@@ -1,0 +1,71 @@
+* {
+    font-family:"Optima",fantasy;
+    /* font-variant: small-caps; */
+    text-align: start;
+    color: rgb(0, 0, 0);
+  }
+  .hidden {
+    display: none;
+  }
+
+  #name, #title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-left: 120px;
+    line-height: 3px;
+  }
+  #email{
+    text-align: center; 
+    line-height: 3px;
+  }
+  h1,h2 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-left: 115px;
+  }
+  h1{
+    line-height: 3px;
+  }
+  mark1{
+    background-color:rgba(0, 255, 255, 0.468)
+  }
+  mark2{
+    background-color:rgba(115, 255, 0, 0.488);
+    
+  }
+/* everything */
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./notebook.jpeg");
+    background-attachment: fixed;
+    background-position:left top;
+    background-size: cover;
+    
+  }
+  /* just the items (not resume or header) container box */
+  #bodyelements{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    height:100%
+  }
+  #clicker, #phaser, #crud{
+    color: #032014;
+    border: inset;
+    flex-basis: 33.333333%;
+  }
+  #clicker{
+    padding-left: 120px;
+  }
+  #form{
+    padding-left: 120px;
+  }
+  b{
+    background-color:rgba(255, 0, 200, 0.547);
+    text-decoration: underline;
+  }
+  
+  
