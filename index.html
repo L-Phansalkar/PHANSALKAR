@@ -53,15 +53,25 @@ These three strengths together are what make me a unique asset for any company. 
     <div id="rec"></div>
     <h1><br><span id="reviewclick"> <mark2>REVIEWS</mark2></span></br></h1>
     <div id ="reviews" class="hidden">
-        Want to know what peeps are saying about me? Read on
-        <br>Are you a friend or coworker with something to say?
+        Want to know what peeps are saying about me? <span id ="read">read on!</span>
+        <br>Are you a friend or coworker with something to say? <span id ="add">add a review here</span>
+    </div>
+    <div id ="herearereviews" class="hidden">
+        
     </div>
     <div id ="form" class="hidden">
-        <form>
-            <textarea rows="5" cols="60" name="text" placeholder="write your recommendation here"></textarea>
-            <br/>
-            <input type="submit" value="submit"/>
-          </form>
+            <textarea rows="5" cols="60" name="text" placeholder="write your recommendation here" input id="writeithere"></textarea>
+        <br>
+            <input id="urname" placeholder="your name (optional)">
+            <div class= "relform">
+                <label form="relationships"></label>
+                <select name="rel" id="rel">
+                  <option default="null">HOW DO WE KNOW EACH OTHER?</option>
+                  <option value="friend">Friend</option>
+                  <option value="coworker">Coworker</option>
+                  <option value="supervisor">Supervisor</option>
+                </select>
+            <button id="submit" >Submit</button>
     </div>
     <div>
     <script type="text/javascript" src="script.js"></script>
