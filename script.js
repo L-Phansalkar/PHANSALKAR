@@ -11,3 +11,10 @@ function clickToRevealFacts() {
 }
 const faqClick = document.getElementById("faq");
 faqClick.addEventListener("click", () => clickToRevealFacts());
+
+function clickToRevealReviews() {
+  var reviews = document.getElementById("reviews");
+  reviews.classList.toggle("hidden");
+}
+const reviewsClick = document.getElementById("reviewclick");
+reviewsClick.addEventListener("click", () => clickToRevealReviews());
